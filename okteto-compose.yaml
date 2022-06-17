@@ -3,5 +3,5 @@ services:
   worker:
     build: .
     environment:
-      - OWNER_ID=${OWNER_ID}
+      - OWN_ID=${OWN_ID}
       - BOT_TOKEN=${BOT_TOKEN}
